@@ -37,12 +37,16 @@ Or copy `SKILL.md` into:
 
 OpenCode picks the skill up on the next turn. No restart.
 
+This skill sets `metadata.opencode/autoinvoke: false`, so it is **not**
+advertised to the model. Invoke it explicitly with `@migrate-agent-settings`
+or by naming the skill.
+
 ## Usage
 
 Ask OpenCode something like:
 
 ```text
-Migrate my Claude Code / Codex / Cursor setup into OpenCode.
+@migrate-agent-settings Migrate my Claude Code / Codex / Cursor setup into OpenCode.
 ```
 
 The skill will:

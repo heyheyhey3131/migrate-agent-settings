@@ -8,6 +8,8 @@ description: >-
   Do not use for OpenCode V1 to V2 migration (use the opencode skill),
   installing Marketplace plugins, or authoring a new OpenCode plugin from
   scratch.
+metadata:
+  opencode/autoinvoke: false
 ---
 
 # Migrate agent settings into OpenCode
